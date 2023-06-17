@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>корзина</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <a href="index.html" class="header__logo">
+                <img src="img/logo.png" alt="">
+            </a>
+
+            <ul class="header__items">
+                <li><a class="header__links" href="shop.html">Интернет-магазин</a> </li>
+                <li><a class="header__links" href="blog.html">Блог</a></li>
+                <li><a class="header__links" href="book.html">Энциклопедия</a></li>
+            </ul>
+
+            <div class="header__icons">
+                <a class="header__img">
+                </a>
+                <a class="header__img">
+                    <img src="img/fav.png" alt="icon-fav">
+                </a>
+                <a class="header__img">
+                    <img src="img/prof.png" alt="icon-pof">
+                </a>
+                <a class="header__img" href="cart.html">
+                    <img src="img/card.png" alt="icon-card">
+                </a>
+            </div>
+        </div>
+
+
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- кнопка назад -->
+            <section class="back">
+                <a href="shop.html" class="green-btnt">Назад</a>
+            </section>
+
+            <section class="cart-body">
+
+                <!-- сам заказ -->
+                <div class="cart-body__order">
+
+                    <!-- один элемент в заказе -->
+                    <div class="cart-body__item">
+
+                        <!-- картинка продукта -->
+                        <div class="cart-item__img">
+                            <img src="img/shopCard.png" alt="">
+                        </div>
+
+                        <div class="cart-item__text">
+                            <p class="rubil-subtitle">
+                                Розы Аваланш
+                            </p>
+                            <p class="rubil-subtitle">
+                                9шт
+                            </p>
+                        </div>
+
+                        <div class="cart-item__price">
+                            700₽
+                        </div>
+
+                    </div>
+                
+                    <!-- один элемент в заказе -->
+                    <div class="cart-body__item">
+
+                        <!-- картинка продукта -->
+                        <div class="cart-item__img">
+                            <img src="img/flower2.png" alt="">
+                        </div>
+
+                        <div class="cart-item__text">
+                            <p class="rubil-subtitle">
+                                Гибискус
+                            </p>
+                            <p class="rubil-subtitle">
+                                12шт
+                            </p>
+                        </div>
+
+                        <div class="cart-item__price">
+                            1200₽
+                        </div>
+                    </div>
+
+                    <div class="cart-body__item">
+
+                        <!-- картинка продукта -->
+                        <div class="cart-item__img">
+                            <img src="img/flower3.png" alt="">
+                        </div>
+
+                        <div class="cart-item__text">
+                            <p class="rubil-subtitle">
+                                ромашка
+                            </p>
+                            <p class="rubil-subtitle">
+                                7шт
+                            </p>
+                        </div>
+
+                        <div class="cart-item__price">
+                            500₽
+                        </div>
+                    </div>
+
+                    <div class="cart-body__craft">
+                        <a class="product-card__add" href="shop.html">
+                            <img src="img/plus.png" alt="">
+                            <p>Добавить упаковку</p>
+                        </a>
+
+                        <div class="final-price rubik-title">
+                            Итого: <span class="orange rubik-title">1900р</span>
+                        </div>
+                    </div>
+
+
+
+                    
+                </div>
+
+                <!-- предложение выбрать доставку -->
+                <div class="cart-body__deliver">
+
+                    <!--  -->
+                    <p class="rubik-subtitle">Выберите способ доставки: </p>
+
+                    <form action="" class="cart-deli">
+                        <div class="cart-deli__btns">
+                            <div class="cart-deli__btn cart-deli__cur">курьером</div>
+                            <div class="cart-deli__btn cart-deli__sam">самовывоз</div>
+                        </div>
+
+                        <input class="cart-deli__input" type="text" required placeholder="город, улица*">
+
+                        <div class="cart-deli__inputs">
+                            <input class="cart-deli__input" type="text" required placeholder="подъезд*">
+                            <input class="cart-deli__input" type="text" required placeholder="квартира*">
+                        </div>
+                    </form>
+
+                    <form action="" class="cart-deli">
+                        <input class="cart-deli__input" type="text" required placeholder="комментарий к заказу">
+                    </form>
+                </div>
+            </section>
+
+            <section class="final">
+                <button class="transparent-button">введите промокод</button>
+
+                <button class="green-btn">Оформить заказ</button>
+
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer">
+            <!-- логотип -->
+            <a href="index.html" class="footer__logo">
+                <img src="img/footer-logo.png" alt="footer-logo" >
+            </a>
+
+            <!-- ссылки в футере -->
+            <ul class="footer__ul">
+                <li> <a href="soon.html">карта сайта</a></li>
+                <li><a href="soon.html">связаться с нами</a></li>
+                <li><a href="soon.html">о проекте</a></li>
+                <li><a href="soon.html">реклама и сотрудничество</a></li>
+                <li><a href="soon.html">отзывы</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

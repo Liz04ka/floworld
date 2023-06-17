@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>F.L.O.W - Интернет-магазин</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <a href="index.html" class="header__logo">
+                <img src="img/logo.png" alt="">
+            </a>
+
+            <ul class="header__items">
+                <li><a class="header__links" href="shop.html">Интернет-магазин</a> </li>
+                <li><a class="header__links" href="blog.html">Блог</a></li>
+                <li><a class="header__links" href="book.html">Энциклопедия</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- стандартный поиск -->
+            <section class="search search-book">
+                <a class="search__img" href="bookFav.html">
+                    <img src="img/save.png" alt="">
+                </a>
+                <form action="" method="get" class="search__form">
+                    <input type="search" class="search__input" placeholder="введите название">
+                    <button class="search__btn"><img src="img/search.svg" alt=""></button>
+                </form>
+            </section>
+
+            <section class="back">
+                <a href="shop.html" class="green-btn">Назад</a>
+            </section>
+
+            <section class="book-page__header">
+                <h1 class="rubik-title">Черника</h1>
+
+                <button class="transparent-button "> Cохранить
+                </button>
+            </section>
+
+            <section class="book-page__content">
+
+                <!-- оглавление -->
+                <div class="contents">
+                    <p class="rubik-subtitle">
+                        Содержание:
+                    </p>
+
+                    <ul class="book-page__ul">
+                        <li><a href="#1">Внешний вид кустарника</a></li>
+                        <li><a href="#2">Отличие голубики от черники</a></li>
+                        <li><a href="#3">Особенности размножения</a></li>
+                        <li><a href="#4">Местоположение и посадка</a></li>
+                        <li><a href="#5">Правила ухода</a></li>
+                        <li><a href="#6">Полезные свойства</a></li>
+                    </ul>
+                </div>
+
+                <!-- картинка -->
+                <div class="book-page__img">
+                    <img src="img/book1.png" alt="">
+                </div>
+            </section>
+
+            <section class="book-page-section" id="1">
+                <p class="book-page__text">
+                    Черника – плодовое растение из рода Вакциниум в семействе Вересковые. Кроме очень полезных и вкусных ягод оно ценится декоративностью, поэтому кустики часто высаживают на альпийских горках. Побеги и листву кустарников также используют на корм скоту, а ранее применяют в качестве красителя для кожи. Научное название рода (vaccinium) происходит от слова «vacca», то есть «корова». Русское наименование объясняется цветом ягод. Обитает черника в тенистых хвойных и смешанных лесах или на болотах. Растение повсеместно распространено от умеренного климата до тундры.
+                </p>
+            </section>
+
+            <section class="book-page-section" id="2">
+                <h2 class="rubik-subtitle">
+                    Внешний вид кустарника
+                </h2>
+
+                <p class="book-page__text">
+                    Черника – многолетний листопадный кустарник высотой всего 10-50 см. Его питает ползучее, поверхностное корневище, которое уходит всего на 6-8 см вглубь земли. На боковых ответвлениях корней образуется большое количество прироста, поэтому кустарник рекомендуется ограничивать. В центре находится небольшое количество главных стволиков. Боковые ветки на них направлены вверх под острым углом. Стебли покрыты коричневой гладкой корой с продольными ребрами.
+
+                    <br>
+                    Очередные сидячие или короткочерешковые листья располагаются спирально. Они имеют яйцевидную или овальную форму с мелкопильчатыми краями. Кожистая поверхность листа заострена на конце и окрашена в темно-зеленый цвет. На ней отчетливо видна утолщенная и более светлая центральная жилка.
+                </p>
+
+                <div class="book-page__imgs">
+                    <img src="img/blueberry1.png" alt="">
+                    <img src="img/blueberry2.png" alt="">
+                    <img src="img/blueberry3.png" alt="">
+                </div>
+            </section>
+
+            <section class="book-page-section" id="3">
+                <h2 class="rubik-subtitle">
+                    Отличие черники от голубики
+                </h2>
+
+                <p class="book-page__text">
+                    Оба растения относятся к роду Вакциниум, поэтому их сходство неудивительно. Начинающий садовод редко отличит чернику от голубики по внешнему виду куста. Среди наиболее характерных выделяют следующие отличия:
+                    <br><br>
+                    кустик черники всегда невысокий, тогда как голубика может достигать 3 м в высоту; <br>
+                    ягоды черники почти лишены светлого воскового налета;<br>
+                    сок плодов черники, в отличие от родной сестры, оставляет на руках и одежде яркие стойкие пятна;<br>
+                    состав ягод черники богаче, именно в них содержатся микроэлементы, помогающие улучшить зрение;<br>
+                    если голубика начинает цвести и плодоносить с возраста от 7 лет, то на кустиках черники первые цветы появляются уже спустя 1-2 года.
+                </p>
+            </section>
+
+            <section class="book-page-section" id="4">
+                <h2 class="rubik-subtitle">
+                    Особенности размножения
+                </h2>
+
+                <p class="book-page__text">
+                    Чернику размножают семенами и вегетативно. При семенном способе размножения собирают самые спелые и здоровые ягоды. Их размягчают и извлекают семена, а затем промывают и сушат. Посадку производят в середине осени. Предварительно семена замачивают в стакане с водой и используют лишь те, которые осели на дно. В неглубокие ёмкости со смесью песка и торфа семена заделывают на глубину 3-5 мм. Их увлажняют и накрывают пленкой. Ежедневно необходимо проветривать и опрыскивать посевы. Всходы появляются спустя несколько недель, после этого укрытие убирают. Зимой сеянцы содержат в хорошо освещенном помещении с температурой +5…+10°C. Весной, когда установится теплая погода, растения в горшочках выносят на свежий воздух и размещают в полутени. Их регулярно поливают и удобряют. Пересадку в открытый грунт можно производить в возрасте 2-3 лет.
+                </p>
+
+                img
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer">
+            <!-- логотип -->
+            <a href="index.html" class="footer__logo">
+                <img src="img/footer-logo.png" alt="footer-logo" >
+            </a>
+
+            <!-- ссылки в футере -->
+            <ul class="footer__ul">
+                <li> <a href="soon.html">карта сайта</a></li>
+                <li><a href="soon.html">связаться с нами</a></li>
+                <li><a href="soon.html">о проекте</a></li>
+                <li><a href="soon.html">реклама и сотрудничество</a></li>
+                <li><a href="soon.html">отзывы</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script src="scripts/slider.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header__container container">
+            <a href="index.html" class="header__logo">
+                <img src="img/logo.png" alt="">
+            </a>
+
+            <ul class="header__items">
+                <li><a class="header__links" href="shop.html">Интернет-магазин</a> </li>
+                <li><a class="header__links" href="blog.html">Блог</a></li>
+                <li><a class="header__links" href="book.html">Энциклопедия</a></li>
+            </ul>
+
+            <div class="header__icons">
+                <a class="header__img">
+                </a>
+                <a class="header__img">
+                    <img src="img/fav.png" alt="icon-fav">
+                </a>
+                <a class="header__img">
+                    <img src="img/prof.png" alt="icon-pof">
+                </a>
+                <a class="header__img" href="cart.html">
+                    <img src="img/card.png" alt="icon-card">
+                </a>
+            </div>
+        </div>
+
+
+    </header>
+
+    <main>
+
+        <div class="container">
+
+            <!-- кнопка назад -->
+            <section class="back">
+                <a href="shop.html" class="green-btn">Назад</a>
+            </section>
+
+            <!-- о товаре -->
+            <section class="product-card">
+
+                <!-- часть с картинками -->
+                <div class="product-card__slider">
+                    <img src="img/shopCard.png" alt="">
+                </div>
+
+
+                <!-- часть с описанием -->
+                <div class="product-card__descr">
+
+                    <!-- вверхний текст -->
+                    <h1 class="product-card__title rubik-title">Розы Аваланш</h1>
+                    <p class="product-card__smalltext">*На фото представлен букет 15 роз аваланш с рускусом</p>
+                    <p class="product-card__title rubik-title orange">520 ₽</p>
+
+                    <!-- блок с размером  -->
+                    <div class="product-card__size">
+                        <p class="mb-10">Выберите размер букета: </p>
+
+                        <div class="transparent-buttons mb-10">
+                            <button class="transparent-button">3шт</button>
+                            <button class="transparent-button">9шт</button>
+                            <button class="transparent-button">15шт</button>
+                        </div>
+
+                        <p class="mb-10">или</p>
+
+                        <form action="">
+                            <input class="search__input count__input" type="text" name="" id="" placeholder="введите число">
+                        </form>
+                    </div>
+
+                    <!-- добавить еще один цветов -->
+                    <a class="product-card__add" href="shop.html">
+                            <img src="img/plus.png" alt="">
+                            <p>Добавить в букет
+                                другой цветок</p>
+                    </a>
+
+                    <button class="green-btn">Добавить в корзину</button>
+
+                </div>
+
+            </section>
+
+
+            <!-- описание товара -->
+            <section class="description">
+                <ul class="descr__ul">
+                    <li class="descr__li active-text">Описание</li>
+                    <li class="descr__li">Необходимый уход</li>
+                    <li class="descr__li">Дополнительная информация</li>
+                </ul>
+
+                <div class="descr__content">
+                    Это не просто белая роза, на её лепестках можно увидеть яркие жемчужные проблески и переливания. Кустарник цветёт обильно, в пик цветения становится похож на искрящийся сугроб
+
+                    <br><br>
+
+                    Avalanche — чайно-гибридная роза нежного жемчужно-белого оттенка. Романтичное и утонченно растение, которое часто становится акцентицирующим объектом в букетной композиции. Аваланж роза способна выделиться из множества белых роз своими декоративными качествами и хорошей устойчивостью.
+                    Описание сорта Аваланж
+                    <br>
+                    Роза сорта Аваланж отличается средней устойчивостью к грибковым паразитам и различным заболеваниям, при соответствующем уходе растение хорошо растёт, продолжительно цветёт и редко болеет.
+                </div>
+
+                <div class="descr__more">
+                    <p class="mb-10">Хотите узнать больше о растении?</p>
+                    <button class="green-btn">Перейти в энциклопедию</button>
+                </div>
+            </section>
+
+
+            <!-- вам может понравиться -->
+            <section class="more">
+
+                <p class="rubik-subtitle">Вам может понравиться:</p>
+
+                <div class="poduct__slider">
+
+                    <button class="pre-btn"><img src="img/arrow-slider.png" alt=""></button>
+                    <button class="nxt-btn"><img src="img/arrow-slider.png" alt=""></button>
+    
+                    <div class="slider-container">
+    
+                        <!-- карточка с отзывом -->
+                        <a  href="" class="card">
+                            <div class="card__img">
+                                <img src="img/card1.png" alt="card1">
+                            </div>
+            
+                            <div class="card__text">
+                                <p class="card__name rubik-text">Цветочки</p>
+                                <div class="card__price">1000 р.</div>
+                                <button class="green-btn rubik-text">Добавить в корзину</button>
+                            </div>    
+                        </a>
+            
+                        <a  href="" class="card">
+                            <div class="card__img">
+                                <img src="img/card1.png" alt="card1">
+                            </div>
+            
+                            <div class="card__text">
+                                <p class="card__name rubik-text">Цветочки</p>
+                                <div class="card__price">1000 р.</div>
+                                <button class="green-btn rubik-text">Добавить в корзину</button>
+                            </div>    
+                        </a>
+
+                        <a  href="" class="card">
+                            <div class="card__img">
+                                <img src="img/card1.png" alt="card1">
+                            </div>
+            
+                            <div class="card__text">
+                                <p class="card__name rubik-text">Цветочки</p>
+                                <div class="card__price">1000 р.</div>
+                                <button class="green-btn rubik-text">Добавить в корзину</button>
+                            </div>    
+                        </a>  
+
+                        <a  href="" class="card">
+                            <div class="card__img">
+                                <img src="img/card1.png" alt="card1">
+                            </div>
+            
+                            <div class="card__text">
+                                <p class="card__name rubik-text">Цветочки</p>
+                                <div class="card__price">1000 р.</div>
+                                <button class="green-btn rubik-text">Добавить в корзину</button>
+                            </div>    
+                        </a>  
+
+                        <a  href="" class="card">
+                            <div class="card__img">
+                                <img src="img/card1.png" alt="card1">
+                            </div>
+            
+                            <div class="card__text">
+                                <p class="card__name rubik-text">Цветочки</p>
+                                <div class="card__price">1000 р.</div>
+                                <button class="green-btn rubik-text">Добавить в корзину</button>
+                            </div>    
+                        </a>  
+
+                        <a  href="" class="card">
+                            <div class="card__img">
+                                <img src="img/card1.png" alt="card1">
+                            </div>
+            
+                            <div class="card__text">
+                                <p class="card__name rubik-text">Цветочки</p>
+                                <div class="card__price">1000 р.</div>
+                                <button class="green-btn rubik-text">Добавить в корзину</button>
+                            </div>    
+                        </a>  
+
+                        <a  href="" class="card">
+                            <div class="card__img">
+                                <img src="img/card1.png" alt="card1">
+                            </div>
+            
+                            <div class="card__text">
+                                <p class="card__name rubik-text">Цветочки</p>
+                                <div class="card__price">1000 р.</div>
+                                <button class="green-btn rubik-text">Добавить в корзину</button>
+                            </div>    
+                        </a>  
+
+                        <a  href="" class="card">
+                            <div class="card__img">
+                                <img src="img/card1.png" alt="card1">
+                            </div>
+            
+                            <div class="card__text">
+                                <p class="card__name rubik-text">Цветочки</p>
+                                <div class="card__price">1000 р.</div>
+                                <button class="green-btn rubik-text">Добавить в корзину</button>
+                            </div>    
+                        </a>  
+
+                        <a  href="" class="card">
+                            <div class="card__img">
+                                <img src="img/card1.png" alt="card1">
+                            </div>
+            
+                            <div class="card__text">
+                                <p class="card__name rubik-text">Цветочки</p>
+                                <div class="card__price">1000 р.</div>
+                                <button class="green-btn rubik-text">Добавить в корзину</button>
+                            </div>    
+                        </a>  
+
+                        <a  href="" class="card">
+                            <div class="card__img">
+                                <img src="img/card1.png" alt="card1">
+                            </div>
+            
+                            <div class="card__text">
+                                <p class="card__name rubik-text">Цветочки</p>
+                                <div class="card__price">1000 р.</div>
+                                <button class="green-btn rubik-text">Добавить в корзину</button>
+                            </div>    
+                        </a>  
+
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+    </main>
+
+    <footer>
+        <div class="container footer">
+            <!-- логотип -->
+            <a href="index.html" class="footer__logo">
+                <img src="img/footer-logo.png" alt="footer-logo" >
+            </a>
+
+            <!-- ссылки в футере -->
+            <ul class="footer__ul">
+                <li> <a href="soon.html">карта сайта</a></li>
+                <li><a href="soon.html">связаться с нами</a></li>
+                <li><a href="soon.html">о проекте</a></li>
+                <li><a href="soon.html">реклама и сотрудничество</a></li>
+                <li><a href="soon.html">отзывы</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
