@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script src="scripts/aciveBtn.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <title>F.L.O.W - Интернет-магазин</title>
 </head>
@@ -22,8 +23,8 @@
 
             <ul class="header__items">
                 <li><a class="header__links" href="shop.html">Интернет-магазин</a> </li>
-                <li><a class="header__links" href="blog.html">Блог</a></li>
-                <li><a class="header__links" href="book.html">Энциклопедия</a></li>
+                <li><a class="header__links " href="blog.html">Блог</a></li>
+                <li><a class="header__links active-item" href="book.html">Энциклопедия</a></li>
             </ul>
         </div>
     </header>
@@ -37,7 +38,7 @@
                 </a>
                 <form action="" method="get" class="search__form">
                     <input type="search" class="search__input" placeholder="введите название">
-                    <button class="search__btn"><img src="img/search.svg" alt=""></button>
+                    <a class="search__btn" href="bookSearch.html"><img src="img/search.svg" alt=""></a>
                 </form>
             </section>
 
